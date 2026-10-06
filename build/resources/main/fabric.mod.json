@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "servertesttools",
+  "version": "1.0.0",
+  "name": "Server Test Tools",
+  "description": "Client-side HUD and local diagnostics for authorized private-server testing.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "it.ricky.servertesttools.ServerTestToolsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
